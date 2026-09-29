@@ -2,28 +2,50 @@
 
 ## Machine Learning Foundations
 
-This repository contains my Week 3 machine learning work for PHANTOMS AI.
+This repository contains my Week 3 machine-learning work for PHANTOMS AI, covering the path from cleaned data to a first classification model.
 
-### Topics covered
+## What I built
 
-- Machine Learning fundamentals
-- Data inspection and cleaning
-- Feature engineering
-- Categorical encoding
-- Train/test preparation
-- Logistic Regression
-- Model evaluation
+- Inspected and cleaned the Titanic dataset
+- Handled missing values
+- Engineered features
+- Encoded categorical variables
+- Prepared model-ready data
+- Split data for training and evaluation
+- Built a Logistic Regression classifier
+- Evaluated the first model with classification metrics
 
-### Notebooks
+## Notebooks
 
-- `W3D1_ML_Intro.ipynb` — Machine Learning introduction and core concepts
-- `W3D2_Data_Cleaning.ipynb` — Data cleaning and feature preparation using the Titanic dataset
-- `W3D3_First_Model.ipynb` — Building and evaluating a first classification model
+### W3D1 — Machine Learning Introduction
+`W3D1_ML_Intro.ipynb`
 
-### Tools
+Introduces core machine-learning concepts and terminology.
 
-Python · Pandas · NumPy · Matplotlib · Seaborn · scikit-learn
+### W3D2 — Data Cleaning
+`W3D2_Data_Cleaning.ipynb`
 
-### Learning direction
+Cleans and prepares the Titanic dataset, including missing-value handling and feature preparation.
 
-The goal of this work is not only to train models, but to understand the pipeline from raw data to a usable machine-learning system — a foundation for moving toward AI Security and eventually LLM Red Teaming.
+### W3D3 — First Model
+`W3D3_First_Model.ipynb`
+
+Uses the prepared dataset to build and evaluate a first Logistic Regression classification model.
+
+## Tools
+
+Python · Pandas · NumPy · Matplotlib · Seaborn · scikit-learn · Google Colab
+
+## Reproducibility
+
+The notebooks include their execution workflow and dependency installation where required.
+
+Start with **W3D1**, then continue through **W3D2 → W3D3** to follow the complete learning progression.
+
+## Learning direction
+
+The objective is to understand the complete path from raw data to a usable machine-learning system — a foundation for moving toward **AI Security and eventually LLM Red Teaming**.
+
+> Build it. Break it. Understand it. Document it.
+
+**Author:** Aya — inspire2029-sudo
