@@ -30,7 +30,7 @@ Cleans and prepares the Titanic dataset, including missing-value handling and fe
 ### W3D3 — First Model
 `W3D3_First_Model.ipynb`
 
-Uses the prepared dataset to build and evaluate a first Logistic Regression classification model.
+Builds and evaluates a Logistic Regression classifier on the prepared Titanic features. The notebook now performs its preprocessing internally, so it does not depend on an external Drive-mounted script or an unavailable local file.
 
 ## Tools
 
@@ -38,7 +38,11 @@ Python · Pandas · NumPy · Matplotlib · Seaborn · scikit-learn · Google Col
 
 ## Reproducibility
 
-The notebooks include their execution workflow and dependency installation where required.
+For local environments:
+
+`pip install -r requirements.txt`
+
+The notebooks can also be run in Google Colab. W3D3 is self-contained and reproduces the preprocessing needed for model training.
 
 Start with **W3D1**, then continue through **W3D2 → W3D3** to follow the complete learning progression.
 
